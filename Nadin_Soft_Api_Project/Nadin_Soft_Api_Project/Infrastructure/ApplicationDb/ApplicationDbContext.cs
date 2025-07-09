@@ -2,8 +2,8 @@
 using Microsoft.EntityFrameworkCore;
 using Nadin_Soft_Api_Project.Application.Interfaces.ApplicationDbContext;
 using Nadin_Soft_Api_Project.Domain.Entities;
-using Nadin_Soft_Api_Project.Domain.Entities.Comment;
 using Nadin_Soft_Api_Project.Domain.Entities.Common;
+using Nadin_Soft_Api_Project.Domain.Entities.Product;
 using Nadin_Soft_Api_Project.Domain.Entities.User;
 using System;
 using System.Reflection;
@@ -22,7 +22,7 @@ public class ApplicationDbContext : DbContext , IApplicationDbContext
     }
 
     public DbSet<User> Users => Set<User>();
-    public DbSet<Comment> Comments => Set<Comment>(); 
+    public DbSet<Product> Products => Set<Product>(); 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

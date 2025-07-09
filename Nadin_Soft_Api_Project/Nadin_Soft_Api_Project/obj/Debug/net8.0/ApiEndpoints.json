@@ -1,5 +1,129 @@
 [
   {
+    "ContainingType": "Nadin_Soft_Api_Project.Controllers.ProductController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Product/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ProductDto",
+        "Type": "Nadin_Soft_Api_Project.Application.Models.Dto.CommentDto.CreateProductDto",
+        "IsRequired": true
+      },
+      {
+        "Name": "userRef",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nadin_Soft_Api_Project.Domain.Entities.Product.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Nadin_Soft_Api_Project.Controllers.ProductController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Product/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Nadin_Soft_Api_Project.Controllers.ProductController",
+    "Method": "GetAllProduct",
+    "RelativePath": "api/Product/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Nadin_Soft_Api_Project.Application.Models.Dto.CommentDto.ShowProductDto, Nadin_Soft_Api_Project, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Nadin_Soft_Api_Project.Controllers.ProductController",
+    "Method": "GetUser",
+    "RelativePath": "api/Product/GetById",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nadin_Soft_Api_Project.Domain.Entities.Product.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Nadin_Soft_Api_Project.Controllers.ProductController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Product/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Productdto",
+        "Type": "Nadin_Soft_Api_Project.Application.Models.Dto.CommentDto.CreateProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Nadin_Soft_Api_Project.Domain.Entities.Product.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
     "ContainingType": "Nadin_Soft_Api_Project.Controllers.UserController",
     "Method": "CreateUser",
     "RelativePath": "api/User/Create",
@@ -64,7 +188,7 @@
   {
     "ContainingType": "Nadin_Soft_Api_Project.Controllers.UserController",
     "Method": "GetUser",
-    "RelativePath": "api/User/GetUser",
+    "RelativePath": "api/User/GetById",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
