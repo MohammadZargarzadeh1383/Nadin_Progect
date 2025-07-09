@@ -5851,11 +5851,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MOHAMADREZA\\source\\repos\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj",
+      "projectUniqueName": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj",
       "projectName": "Nadin_Soft_Api_Project",
-      "projectPath": "C:\\Users\\MOHAMADREZA\\source\\repos\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj",
+      "projectPath": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj",
       "packagesPath": "C:\\Users\\MOHAMADREZA\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MOHAMADREZA\\source\\repos\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\obj\\",
+      "outputPath": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

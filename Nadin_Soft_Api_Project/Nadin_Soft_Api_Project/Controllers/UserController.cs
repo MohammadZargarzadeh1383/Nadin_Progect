@@ -36,7 +36,7 @@ namespace Nadin_Soft_Api_Project.Controllers
         [HttpGet("GetAll")]
         public async Task<ActionResult<List<ShowUserDto>>> GetAllUser()
         {
-            var getallnotion = await _genericRepository.GetAll().Select(x => new ShowUserDto
+            var getalluser = await _genericRepository.GetAll().Select(x => new ShowUserDto
             {
                 Id = x.Id,
                 FirstName = x.FirstName,
@@ -45,7 +45,7 @@ namespace Nadin_Soft_Api_Project.Controllers
                 CreatedAt = x.CreatedAt
             }
             ).ToListAsync();
-            return Ok(getallnotion);
+            return Ok(getalluser);
         }
 
         [HttpGet("GetById")]
@@ -86,14 +86,14 @@ namespace Nadin_Soft_Api_Project.Controllers
         [HttpDelete("Delete")]
         public async Task<ActionResult> DeleteUser([FromQuery]int id)
         {
-            var notion = await _genericRepository.GetById(id);
-            if (notion == null)
+            var user = await _genericRepository.GetById(id);
+            if (user == null)
             {
                 return NotFound();
             }
             else
             {
-                var deletenotion = await _genericRepository.Delete(notion);
+                var deleteuser = await _genericRepository.Delete(user);
                 return Ok();
             }
             ;

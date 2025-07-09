@@ -64,27 +64,26 @@ namespace Nadin_Soft_Api_Project.Controllers
         }
 
         [HttpPut("Update")]
-        public async Task<ActionResult<User>> UpdateUser([FromQuery] int id, [FromBody] CreateUserDto userdto)
+        public async Task<ActionResult<User>> UpdateComment([FromQuery] int id, [FromBody] CreateCommentDto commentdto)
         {
 
-            var user = await _genericRepository.GetById(id);
-            if (user == null)
+            var comment = await _genericRepository.GetById(id);
+            if (comment == null)
             {
                 return NotFound();
             }
             else
             {
-                user.FirstName = userdto.FirstName;
-                user.LastName = userdto.LastName;
-                user.PhoneNumber = userdto.PhoneNumber;
-                user.UpdatedAt = DateTime.Now;
-                var updateuser = await _genericRepository.Update(user);
-                return Ok(updateuser);
+                comment.Title = commentdto.Title;
+                comment.Text= commentdto.Text;
+                comment.UpdatedAt = DateTime.Now;
+                var updatecomment = await _genericRepository.Update(comment);
+                return Ok(updatecomment);
             }
             ;
         }
         [HttpDelete("Delete")]
-        public async Task<ActionResult> DeleteUser([FromQuery] int id)
+        public async Task<ActionResult> DeleteComment([FromQuery] int id)
         {
             var comment = await _genericRepository.GetById(id);
             if (comment == null)
@@ -93,7 +92,7 @@ namespace Nadin_Soft_Api_Project.Controllers
             }
             else
             {
-                var deletenotion = await _genericRepository.Delete(comment);
+                var deletecomment = await _genericRepository.Delete(comment);
                 return Ok();
             }
             ;
