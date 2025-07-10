@@ -1,24 +1,47 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Nadin_Soft_Api_Project.Application.Interfaces.Repositories;
+using Nadin_Soft_Api_Project.Application.Interfaces.Services;
 using Nadin_Soft_Api_Project.Application.Models.Dto.UserDto;
 using Nadin_Soft_Api_Project.Domain.Entities.User;
 using System;
+using WebApplication2.Application.Services;
 
 namespace Nadin_Soft_Api_Project.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class UserController : ControllerBase
     {
         private readonly IGenericRepository<User> _genericRepository;
-
-        public UserController(IGenericRepository<User> genericRepository)
+        private readonly IJwtOperation _jwtOperation;
+        public UserController(IGenericRepository<User> genericRepository, IJwtOperation jwtOperation)
         {
             _genericRepository = genericRepository;
+            _jwtOperation = jwtOperation;
+
         }
 
+        [AllowAnonymous]
+        [HttpPost("login")]
+        public async Task<ActionResult> Login([FromBody] CreateUserDto userdto)
+        {
+            var Loginuser = await _genericRepository.GetAll().Where(x => x.FirstName == userdto.FirstName && x.Password == userdto.Password).FirstOrDefaultAsync();
+            if (Loginuser != null)
+            {
+                var token = await _jwtOperation.GenerateTokenAsync(Loginuser.FirstName, Loginuser.Id);
+                return Ok(token);
+            }
+            else
+            {
+                return BadRequest();
+            }
+        }
+
+        [AllowAnonymous]
         [HttpPost("Create")]
         public async Task<ActionResult<User>> CreateUser(CreateUserDto UserDto)
         {
@@ -30,7 +53,9 @@ namespace Nadin_Soft_Api_Project.Controllers
                 Password = UserDto.Password,
             };
             var createuser = await _genericRepository.Create(user);
-            return Ok(createuser);
+            var token = await _jwtOperation.GenerateTokenAsync(createuser.FirstName, createuser.Id);
+            return Ok(new { createuser, token });
+
         }
 
         [HttpGet("GetAll")]

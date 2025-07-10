@@ -1,26 +1,29 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Nadin_Soft_Api_Project.Application.Interfaces.Repositories;
 using Nadin_Soft_Api_Project.Domain.Entities.Common;
-using Nadin_Soft_Api_Project.Infrastucture.ApplicationDb;
+using Nadin_Soft_Api_Project.Domain.Entities.User;
 using Nadin_Soft_Api_Project.Domain.Enums.AppAction;
+using Nadin_Soft_Api_Project.Infrastructure.Repositories;
+using Nadin_Soft_Api_Project.Infrastucture.ApplicationDb;
 
 namespace Nadin_Soft_Api_Project.Infrastucture.Repositories
 {
     public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : BaseEntity
     {
-        private ApplicationDbContext _context;
-        private DbSet<TEntity> _entities;
-
-        public GenericRepository(ApplicationDbContext context)
+        private readonly ApplicationDbContext _context;
+        private readonly DbSet<TEntity> _entities;
+        private readonly IProductRepository _productRepository;
+        public GenericRepository(ApplicationDbContext context, IProductRepository productRepository)
         {
             _context = context;
             _entities = context.Set<TEntity>();
+            _productRepository = productRepository;
         }
-        public async Task<int> Create(TEntity entity)
+        public async Task<TEntity> Create(TEntity entity)
         {
-            await _entities.AddAsync(entity);
-            var save = await _context.SaveChangesAsync();
-            return save;
+            var save =  await _entities.AddAsync(entity);
+            await _context.SaveChangesAsync();
+            return save.Entity;
         }
         public async Task<bool> Delete(TEntity entity)
         {

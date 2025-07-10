@@ -4,7 +4,7 @@ namespace Nadin_Soft_Api_Project.Application.Interfaces.Repositories
 {
     public interface IGenericRepository<TEntity> where TEntity : BaseEntity
     {
-        public Task<int> Create(TEntity entity);
+        public Task<TEntity> Create(TEntity entity);
         public Task<bool> Delete(TEntity entity);
         public Task<int> Update(TEntity entity);
         public Task<TEntity> GetById(int id);
