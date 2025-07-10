@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Migrations\\20250710071208_AddProductConfiguration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Nadin_Soft_Api_Project\\Migrations\\20250710071208_AddProductConfiguration2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Migrations\\20250710070650_AddProductConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Nadin_Soft_Api_Project\\Migrations\\20250710070650_AddProductConfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444958BD-6067-4D7D-95A1-830BF27BC3F6}|Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj|c:\\users\\mohamadreza\\onedrive\\desktop\\github repository\\nadin_soft\\nadin_progect\\nadin_soft_api_project\\nadin_soft_api_project\\infrastructure\\configuration\\products\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444958BD-6067-4D7D-95A1-830BF27BC3F6}|Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj|solutionrelative:nadin_soft_api_project\\infrastructure\\configuration\\products\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444958BD-6067-4D7D-95A1-830BF27BC3F6}|Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj|c:\\users\\mohamadreza\\onedrive\\desktop\\github repository\\nadin_soft\\nadin_progect\\nadin_soft_api_project\\nadin_soft_api_project\\infrastructure\\configuration\\users\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444958BD-6067-4D7D-95A1-830BF27BC3F6}|Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj|solutionrelative:nadin_soft_api_project\\infrastructure\\configuration\\users\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{444958BD-6067-4D7D-95A1-830BF27BC3F6}|Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj|c:\\users\\mohamadreza\\onedrive\\desktop\\github repository\\nadin_soft\\nadin_progect\\nadin_soft_api_project\\nadin_soft_api_project\\domain\\entities\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{444958BD-6067-4D7D-95A1-830BF27BC3F6}|Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj|solutionrelative:nadin_soft_api_project\\domain\\entities\\product\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{444958BD-6067-4D7D-95A1-830BF27BC3F6}|Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj|c:\\users\\mohamadreza\\onedrive\\desktop\\github repository\\nadin_soft\\nadin_progect\\nadin_soft_api_project\\nadin_soft_api_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{444958BD-6067-4D7D-95A1-830BF27BC3F6}|Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project.csproj|solutionrelative:nadin_soft_api_project\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -38,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +66,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250710071208_AddProductConfiguration2.cs",
+              "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Migrations\\20250710071208_AddProductConfiguration2.cs",
+              "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Migrations\\20250710071208_AddProductConfiguration2.cs",
+              "ToolTip": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Migrations\\20250710071208_AddProductConfiguration2.cs",
+              "RelativeToolTip": "Nadin_Soft_Api_Project\\Migrations\\20250710071208_AddProductConfiguration2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:12:08.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250710070650_AddProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Migrations\\20250710070650_AddProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Migrations\\20250710070650_AddProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Migrations\\20250710070650_AddProductConfiguration.cs",
+              "RelativeToolTip": "Nadin_Soft_Api_Project\\Migrations\\20250710070650_AddProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T07:06:50.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Domain\\Entities\\Product\\Product.cs",
+              "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Domain\\Entities\\Product\\Product.cs",
+              "ToolTip": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Domain\\Entities\\Product\\Product.cs",
+              "RelativeToolTip": "Nadin_Soft_Api_Project\\Domain\\Entities\\Product\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:57:52.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Infrastructure\\Configuration\\Products\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Infrastructure\\Configuration\\Products\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Infrastructure\\Configuration\\Products\\ProductConfiguration.cs",
+              "RelativeToolTip": "Nadin_Soft_Api_Project\\Infrastructure\\Configuration\\Products\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:45:27.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Infrastructure\\Configuration\\Users\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Infrastructure\\Configuration\\Users\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Infrastructure\\Configuration\\Users\\UserConfiguration.cs",
+              "RelativeToolTip": "Nadin_Soft_Api_Project\\Infrastructure\\Configuration\\Users\\UserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T06:39:44.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Infrastructure\\Repositories\\GenericRepository.cs",
               "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Infrastructure\\Repositories\\GenericRepository.cs",
@@ -54,12 +139,11 @@
               "RelativeToolTip": "Nadin_Soft_Api_Project\\Infrastructure\\Repositories\\GenericRepository.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAA1wCUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-10T05:21:30.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-10T05:21:30.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Application\\Interfaces\\Repositories\\IProductRepository.cs",
               "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Application\\Interfaces\\Repositories\\IProductRepository.cs",
@@ -67,12 +151,11 @@
               "RelativeToolTip": "Nadin_Soft_Api_Project\\Application\\Interfaces\\Repositories\\IProductRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:12:18.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T21:12:18.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Controllers\\ProductController.cs",
@@ -85,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Infrastructure\\ApplicationDb\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Infrastructure\\ApplicationDb\\ApplicationDbContext.cs",
@@ -97,7 +180,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Program.cs",
               "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Program.cs",
@@ -105,12 +188,11 @@
               "RelativeToolTip": "Nadin_Soft_Api_Project\\Program.cs",
               "ViewState": "AgIAAFgAAAAAAAAAAAAswHsAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T21:01:05.761Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T21:01:05.761Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Infrastructure\\Repositories\\ProductRepository.cs",
               "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Infrastructure\\Repositories\\ProductRepository.cs",
@@ -118,12 +200,11 @@
               "RelativeToolTip": "Nadin_Soft_Api_Project\\Infrastructure\\Repositories\\ProductRepository.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T20:52:05.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T20:52:05.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "JwtOperation.cs",
               "DocumentMoniker": "C:\\Users\\MOHAMADREZA\\OneDrive\\Desktop\\Github Repository\\Nadin_Soft\\Nadin_Progect\\Nadin_Soft_Api_Project\\Nadin_Soft_Api_Project\\Application\\Services\\JwtOperation.cs",
               "RelativeDocumentMoniker": "Nadin_Soft_Api_Project\\Application\\Services\\JwtOperation.cs",

@@ -7,7 +7,6 @@ namespace Nadin_Soft_Api_Project.Domain.Entities.Product;
 public class Product : BaseEntity
 {
     public int UserRef { get; set; }
-    [ForeignKey("UserRef")]
     public User.User User { get; set; }
     public string ManufactureEmail { get; set; }
     public string ManufacturePhone { get; set; }
