@@ -1,13 +1,10 @@
 ﻿using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Nadin_Soft_Api_Project.Application.Interfaces.Repositories;
 using Nadin_Soft_Api_Project.Application.Interfaces.Services;
 using Nadin_Soft_Api_Project.Application.Models.Dto.UserDto;
 using Nadin_Soft_Api_Project.Domain.Entities.User;
-using System;
-using WebApplication2.Application.Services;
 
 namespace Nadin_Soft_Api_Project.Controllers
 {
@@ -27,9 +24,9 @@ namespace Nadin_Soft_Api_Project.Controllers
 
         [AllowAnonymous]
         [HttpPost("login")]
-        public async Task<ActionResult> Login([FromBody] CreateUserDto userdto)
+        public async Task<ActionResult> Login([FromBody] LoginUserDto loginuserdto)
         {
-            var Loginuser = await _genericRepository.GetAll().Where(x => x.FirstName == userdto.FirstName && x.Password == userdto.Password).FirstOrDefaultAsync();
+            var Loginuser = await _genericRepository.GetAll().Where(x => x.FirstName == loginuserdto.Name && x.Password == loginuserdto.Password).FirstOrDefaultAsync();
             if (Loginuser != null)
             {
                 var token = await _jwtOperation.GenerateTokenAsync(Loginuser.FirstName, Loginuser.Id);

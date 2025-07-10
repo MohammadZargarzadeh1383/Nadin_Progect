@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Nadin_Soft_Api_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5634e433be58b3fec04d87187486613056c380c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4d6991c504c486086efbb511da6d8dec5f2a5b58")]
 [assembly: System.Reflection.AssemblyProductAttribute("Nadin_Soft_Api_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Nadin_Soft_Api_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

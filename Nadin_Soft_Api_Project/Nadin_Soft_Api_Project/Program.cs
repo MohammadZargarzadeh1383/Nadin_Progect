@@ -36,7 +36,7 @@ builder.Services.AddSwaggerGen(opt =>
         Scheme = "Bearer",
         BearerFormat = "JWT",
         In = ParameterLocation.Header,
-        Description = "vared kon token ra"
+        Description = "Please Enter \toke\n"
     });
     opt.AddSecurityRequirement(new OpenApiSecurityRequirement
     {
@@ -121,8 +121,16 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();
 
+using (var scope = app.Services.CreateScope())
+{
+    var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+    dbContext.Database.Migrate();
+}
+
 app.Run();
+

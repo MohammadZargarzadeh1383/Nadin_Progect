@@ -259,17 +259,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserDto"
+                "$ref": "#/components/schemas/LoginUserDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserDto"
+                "$ref": "#/components/schemas/LoginUserDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CreateUserDto"
+                "$ref": "#/components/schemas/LoginUserDto"
               }
             }
           }
@@ -542,6 +542,20 @@
         },
         "additionalProperties": false
       },
+      "LoginUserDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "Product": {
         "type": "object",
         "properties": {
@@ -714,7 +728,7 @@
     "securitySchemes": {
       "Bearer": {
         "type": "apiKey",
-        "description": "vared kon token ra",
+        "description": "Please Enter \toke\n",
         "name": "Authorization",
         "in": "header"
       }

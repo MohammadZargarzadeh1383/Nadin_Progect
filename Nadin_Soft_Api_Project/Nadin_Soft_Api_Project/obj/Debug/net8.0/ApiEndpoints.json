@@ -241,8 +241,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "userdto",
-        "Type": "Nadin_Soft_Api_Project.Application.Models.Dto.UserDto.CreateUserDto",
+        "Name": "loginuserdto",
+        "Type": "Nadin_Soft_Api_Project.Application.Models.Dto.UserDto.LoginUserDto",
         "IsRequired": true
       }
     ],
